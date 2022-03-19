@@ -1,0 +1,50 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section video{
+    position: absolute;/**/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .navigation
+{
+    height: 95vh;
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+section .navigation li{
+    list-style: none;
+    z-index: 2;
+    cursor: pointer;
+    margin: 0 10px; /*첫변수 top&bottom margin 두번째 left&right*/
+    border-radius: 4px;
+    background-color: #FFF;
+    padding: 3px 3px 0;
+}
+
+section .navigation li img{
+    width: 15vw;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+section .navigation li img:hover{
+    width: 20vw;
+    opacity: 1;
+}
