@@ -1,11 +1,15 @@
-# Animated_Active_Menu
+# Video_Slider
+
+<img src="https://media.giphy.com/media/2SoNiY4UrF5B3AoQmO/giphy-downsized-large.gif" width=100%>
 
 ## 개요
+#### 네비게이터를 onclick 할때 배경이 변하는 프로젝트
+
 * OnlineTutorial 유튜브를 보고 구현함
   * https://www.youtube.com/watch?v=7gEJTwsH6kw&list=PLIMQzWccmG7a8D3JVSQpUyYruGPDlc1ZZ
 
 
-## 깃허브 페이지 빌드 링크
+#### 깃허브 페이지 빌드 링크
 
 ---
 
