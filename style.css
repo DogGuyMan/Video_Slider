@@ -48,3 +48,24 @@ section .navigation li img:hover{
     width: 20vw;
     opacity: 1;
 }
+
+.dotNavigation{
+    display: flex;
+    justify-content: center;
+}
+.dotNavigation div{
+    width: 20px;
+    height: 20px;
+    margin: 0 2vw;
+    border : 2px solid #FFF;
+    border-radius: 100%;
+    z-index: 2;
+    background-color: #000;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+.dotNavigation div.active{
+    background-color : #FFF;
+    opacity : 1;
+}
